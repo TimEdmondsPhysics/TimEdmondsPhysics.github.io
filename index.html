@@ -13,7 +13,7 @@
     :root {
       --bg:       #d8d8d8;
       --ink:      #1a1a18;
-      --muted:    #42413e;
+      --muted:    #52504d;
       --accent:   #2f685e;
       --line:     #dedad4;
       --card-bg:  #ffffff;
@@ -185,13 +185,17 @@
       display: grid;
       grid-template-columns: 1fr auto;
       gap: 1rem;
-      align-start: start;
+      align-items: start;
       transition: background 0.2s;
       text-decoration: none;
       color: inherit;
     }
 
-    .project-card:hover { background: var(--bg); }
+    .project-card:hover {
+      background: var(--bg);
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
 
     .project-card:hover .project-arrow { transform: translate(3px, -3px); color: var(--accent); }
 
