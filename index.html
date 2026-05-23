@@ -186,7 +186,7 @@
       grid-template-columns: 1fr auto;
       gap: 1rem;
       align-items: start;
-      transition: background 0.2s, border-color 0.2s;
+      transition: background 0.2s, border-color 0.15s;
       text-decoration: none;
       color: inherit;
       border: 1px solid transparent;
@@ -266,10 +266,14 @@
       padding: 1.4rem 1.6rem;
       text-decoration: none;
       color: inherit;
-      transition: background 0.2s;
+      border: 1px solid transparent;
+      transition: background 0.2s, border-color 0.15s;
     }
 
-    .contact-item:hover { background: var(--bg); }
+    .contact-item:hover {
+      background: var(--bg);
+      border-color: var(--ink);
+    }
 
     .contact-item-label {
       font-size: 10px;
