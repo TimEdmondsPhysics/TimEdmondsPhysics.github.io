@@ -11,7 +11,7 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:       #f7f5f0;
+      --bg:       #949494;
       --ink:      #1a1a18;
       --muted:    #8a8880;
       --accent:   #2d6a4f;
@@ -331,7 +331,7 @@
     <!-- Header -->
     <header>
       <div class="header-inner">
-        <div class="site-name"><span>@</span>username</div>
+        <div class="site-name">Tim Edmonds</div>
         <nav>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
@@ -343,13 +343,14 @@
     <!-- Hero -->
     <section class="hero">
       <p class="hero-label">Portfolio</p>
-      <h1>Building test things for <em>the web</em> and beyond.</h1>
+      <h1>Mathematics visualisation through code</h1>
       <p>
-        I'm a developer who loves clean code, thoughtful design,
-        and solving real problems. Here's a selection of work I'm proud of.
+        I enjoy creating mathematics and physics simulations using code,
+        either as a means of problem solving or as a way to communicate complex ideas visually.
+        Here is some examples of my work.
       </p>
       <div class="cta-row">
-        <a href="https://github.com/username" class="btn" target="_blank">
+        <a href="https://github.com/TimEdmondsPhysics" class="btn" target="_blank">
           ↗ GitHub Profile
         </a>
         <a href="#contact" class="btn btn-ghost">Get in touch</a>
@@ -360,20 +361,20 @@
     <section class="section" id="projects">
       <div class="section-header">
         <h2 class="section-title">Projects</h2>
-        <span class="section-count">03 selected works</span>
+        <span class="section-count">04 selected works</span>
       </div>
 
       <div class="projects-grid">
 
         <a href="https://github.com/username/project-one" class="project-card" target="_blank">
           <div>
-            <p class="project-tag">Web App</p>
-            <h3 class="project-name">Project One</h3>
-            <p class="project-desc">A short description of what this project does and the problem it solves. Keep it clear and concise.</p>
+            <p class="project-tag">Interactive Physics Visualisation</p>
+            <h3 class="project-name">2D Ising Model Visualisation</h3>
+            <p class="project-desc">A real-time interactive simulation and visualisation of a two dimensional spin-lattice
+              with neighbour and next-neighbour interactions via an Ising model.</p>
             <div class="project-meta">
-              <span>TypeScript</span>
-              <span>React</span>
-              <span>2024</span>
+              <span>Python</span>
+              <span>2025</span>
             </div>
           </div>
           <span class="project-arrow">↗</span>
@@ -381,13 +382,14 @@
 
         <a href="https://github.com/username/project-two" class="project-card" target="_blank">
           <div>
-            <p class="project-tag">CLI Tool</p>
-            <h3 class="project-name">Project Two</h3>
-            <p class="project-desc">A short description of what this project does and the problem it solves. Keep it clear and concise.</p>
+            <p class="project-tag">Physics Simulation</p>
+            <h3 class="project-name">Two-dimensional point-vortex dynamics simluation</h3>
+            <p class="project-desc">A MATLAB simulation that solves the point-vortex coupled ODEs to compute the dynamics of the
+              vortices and analyse and visualise the results. It does this for various initial conditions and domains.
+            </p>
             <div class="project-meta">
-              <span>Python</span>
-              <span>Open Source</span>
-              <span>2024</span>
+              <span>MATLAB</span>
+              <span>2021</span>
             </div>
           </div>
           <span class="project-arrow">↗</span>
@@ -395,13 +397,25 @@
 
         <a href="https://github.com/username/project-three" class="project-card" target="_blank">
           <div>
-            <p class="project-tag">API</p>
-            <h3 class="project-name">Project Three</h3>
-            <p class="project-desc">A short description of what this project does and the problem it solves. Keep it clear and concise.</p>
+            <p class="project-tag">Computational Problem Solving</p>
+            <h3 class="project-name">Selected Solution to Project Euler Question</h3>
+            <p class="project-desc">A short script that calculates the number of unique capacitance circuits that can be made of N capacitors.</p>
             <div class="project-meta">
-              <span>Node.js</span>
-              <span>PostgreSQL</span>
-              <span>2023</span>
+              <span>Python</span>
+              <span>2020</span>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </a>
+
+        <a href="https://github.com/username/project-four" class="project-card" target="_blank">
+          <div>
+            <p class="project-tag">Mathematical Visualisation</p>
+            <h3 class="project-name">Apollolian Gasket Generator</h3>
+            <p class="project-desc">A small script that outputs an image of an Apollolian gasket generated up to N layers.</p>
+            <div class="project-meta">
+              <span>Python</span>
+              <span>2025</span>
             </div>
           </div>
           <span class="project-arrow">↗</span>
@@ -416,16 +430,9 @@
         <h2 class="section-title">Skills</h2>
       </div>
       <div class="skills-list">
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">TypeScript</span>
         <span class="skill-tag">Python</span>
-        <span class="skill-tag">React</span>
-        <span class="skill-tag">Node.js</span>
-        <span class="skill-tag">HTML & CSS</span>
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">REST APIs</span>
-        <span class="skill-tag">SQL</span>
-        <span class="skill-tag">Linux</span>
+        <span class="skill-tag">MatLab</span>
+        <span class="skill-tag">R</span>
       </div>
     </section>
 
@@ -437,15 +444,15 @@
       <div class="contact-grid">
         <a href="https://github.com/username" class="contact-item" target="_blank">
           <p class="contact-item-label">GitHub</p>
-          <p class="contact-item-value">@username</p>
+          <p class="contact-item-value">@TimEdmondsPhysics</p>
         </a>
         <a href="mailto:you@email.com" class="contact-item">
           <p class="contact-item-label">Email</p>
-          <p class="contact-item-value">you@email.com</p>
+          <p class="contact-item-value">timjohnedmonds@gmail.com</p>
         </a>
-        <a href="https://linkedin.com/in/username" class="contact-item" target="_blank">
+        <a href="https://www.linkedin.com/in/timothy-edmonds-brisbane/" class="contact-item" target="_blank">
           <p class="contact-item-label">LinkedIn</p>
-          <p class="contact-item-value">/in/username</p>
+          <p class="contact-item-value">/in/timothy-edmonds-brisbane</p>
         </a>
       </div>
     </section>
