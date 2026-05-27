@@ -175,6 +175,7 @@
       text-decoration: none;
       color: inherit;
       border: 1px solid transparent;
+      position: relative;
     }
 
     .project-card > div:first-child {
@@ -236,8 +237,8 @@
       color: var(--line);
       transition: transform 0.2s, color 0.2s;
       position: absolute;
-      top: 0;
-      right: 0;
+      top: 0.75rem;
+      right: 0.75rem;
     }
 
     /* ── Skills ── */
