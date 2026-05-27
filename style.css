@@ -237,7 +237,7 @@
       transition: transform 0.2s, color 0.2s;
       align-self: start;
       margin-top: 0.2rem;
-      position: absolute;
+      position: relative;
     }
 
     /* ── Skills ── */
