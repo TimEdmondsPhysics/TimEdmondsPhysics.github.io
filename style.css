@@ -177,6 +177,24 @@
       border: 1px solid transparent;
     }
 
+    .project-card > div:first-child {
+      flex: 1;
+    }
+
+    .project-images {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .project-images img {
+      width: 160px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
     .project-card:hover {
       background: var(--bg);
       border-color: var(--accent);
