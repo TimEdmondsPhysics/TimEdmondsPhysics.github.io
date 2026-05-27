@@ -167,10 +167,10 @@
     .project-card {
       background: var(--card-bg);
       padding: 1.8rem;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 1rem;
+      display: flex;          /* changed from grid */
+      flex-direction: row;    /* added */
       align-items: start;
+      gap: 1rem;
       transition: background 0.2s, border-color 0.15s;
       text-decoration: none;
       color: inherit;
