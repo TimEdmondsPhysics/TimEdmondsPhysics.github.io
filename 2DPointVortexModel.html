@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tim Edmonds - 2D Spin Lattice</title>
+  <title>Tim Edmonds - 2D Point Vortices</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
@@ -27,31 +27,45 @@
 
     <!-- Hero -->
     <section class="hero" id="home">
-      <h1>2D Ising Model Visualisation</h1>
+      <h1>Two-dimensional point-vortex dynamics simulation</h1>
       <div class="description-content">
       <p>
-        This project is a interactive real-time visualisation of the 2D square Ising model, a fundamental model for ferromagnetism in statistical mechanics that can be used to study phase transitions and critical phenomena.<br>
-        The model can demonstrate how interactions between spins lead to collective behaviour, such as the sponteneous magnetisation that occurs below the critical temperature. The visualisation also allows you to see the
-        formation and change of magnetic domains as the dynamics of the system evolve. Anti-ferromagneting interactions can also be visualised for certain parameter choices, which leads to the formation of checkerboard patterns of spins.
-        This project was implemented in python using the Metropolis algorithm to simulate the time-dyanimcs of the system, visualised through matplotlib's animation module.
+        A MATLAB simulation that solves the point-vortex coupled ODEs to compute the dynamics of the
+        vortices and analyse and visualise the results. It does this for various initial conditions and domains.<br>
+        The two-dimensional point-vortex system is a simplified model of fluid dynamics with particular applications in the study of superfluids and Bose-Einstein condensates.
+        It consists of a collection of point-like vortices that interact with each other according to the Biot-Savart law.
       </p>
         <div class="project-images">
           <video controls width="450" height="300">
-            <source src="./media/ising_model/recording1.mp4" type="video/mp4" />
+            <source src="./media/point_vortex_model/Animationexample_compressed.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       </div>
+      <div class="description-content">
+        <div class="project-images">
+          <video controls width="450" height="300">
+            <source src="./media/point_vortex_model/Animationexamplenoval_compressed.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <p>
+          The thermodynamics of the system are of particular interest, as the cannonical variables of the system are
+          the position of the vortices, and the Hamiltonian of the system is the kinetic energy of the fluid, which is only a function of the positions of the vortices. Some of the statistical mechanics that result are that of phase transition with point-vortex clustering,
+          and negative absolute temperatures due to the bounded phase space of the system causing the maximum microcanonical entropy to occur at a finite energy.
+        </p>
+      </div>
+      
     </section>
 
     <section class="section" id="code">
       <div class="section-header">
         <h2 class="section-title">Code</h2>
       </div>
-      <a href="https://github.com/TimEdmondsPhysics/2DIsingModel" class="repo-link" target="_blank">
+      <a href="https://github.com/TimEdmondsPhysics/2DPointVortexModel" class="repo-link" target="_blank">
         <div>
-          <p class="repo-link-title">TimEdmondsPhysics / 2D-Ising-Model</p>
-          <p class="repo-link-desc">Metropolis algorithm simulation of the 2D square Ising model, visualised with matplotlib.</p>
+          <p class="repo-link-title">TimEdmondsPhysics / 2D-Point-Vortex-Model</p>
+          <p class="repo-link-desc">Dyanmical simulation of the two-dimensional point vortex system in various domains.</p>
         </div>
         <span class="repo-link-arrow">↗</span>
       </a>
@@ -63,23 +77,23 @@
       </div>
       <div class="gallery-grid">
         <figure class="gallery-item">
-          <img src="./media/ising_model/ising_model_1.png" alt="Low temperature state" />
-          <figcaption>Low temperature spontaneous magnetisation (T < Tc)</figcaption>
+          <img src="./media/point_vortex_model/Figure_1.png" alt="Negative temperature state" />
+          <figcaption>High energy negative absolute temperature state.</figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="./media/ising_model/ising_model_2.png" alt="High temperature state" />
-          <figcaption>High temperature disordered state (T > Tc)</figcaption>
+          <img src="./media/point_vortex_model/Figure_2.png" alt="Low temperature state" />
+          <figcaption>Low temperature vortex dipole state.</figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="./media/ising_model/ising_model_3.png" alt="Antiferromagnetism" />
-          <figcaption>Anti-ferromagnetic spin alighnment</figcaption>
+          <img src="./media/point_vortex_model/Figure_3.png" alt="Infinite temperature state" />
+          <figcaption>Infinite temperature state (in the vortex system at finite energy)</figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="./media/ising_model/ising_model_4.png" alt="Striped Antiferromagnetism" />
-          <figcaption>Striped anti-ferromagnetic spin alighnment</figcaption>
+          <img src="./media/point_vortex_model/Figure_4.png" alt="Vortex state in the Neumann Oval" />
+          <figcaption>Vortex state in the Neumman Oval via conformal mapping.</figcaption>
         </figure>
       </div>
     </section>
