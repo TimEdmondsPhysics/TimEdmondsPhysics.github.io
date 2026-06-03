@@ -73,7 +73,7 @@
 
     /* ── Hero ── */
     .hero {
-      padding: 5rem 0 4rem;
+      padding: 3rem 0 2rem;   /* reduce from 5rem 0 4rem */
       animation: fadeUp 0.7s 0.1s ease both;
     }
 
@@ -248,12 +248,12 @@
     .description-content {
       display: flex;
       flex-direction: row;
-      gap: 1rem;
+      gap: 2rem;              /* increase gap between text and image from 1rem */
       align-items: center;
     }
 
     .description-content + .description-content {
-      margin-top: 1rem;
+      margin-top: 2rem;
     }
 
     /* ── Skills ── */
