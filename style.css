@@ -167,8 +167,8 @@
     .project-card {
       background: var(--card-bg);
       padding: 1.8rem;
-      display: flex;          /* changed from grid */
-      flex-direction: row;    /* added */
+      display: flex;
+      flex-direction: row;
       align-items: start;
       gap: 1rem;
       transition: background 0.2s, border-color 0.15s;
@@ -239,6 +239,15 @@
       position: absolute;
       top: 0.75rem;
       right: 0.75rem;
+    }
+
+    /* ── Description Pages ── */
+    
+    .description-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
     }
 
     /* ── Skills ── */
