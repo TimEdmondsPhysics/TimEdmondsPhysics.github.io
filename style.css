@@ -192,9 +192,9 @@
 
     .project-images img,
     .project-images video {
-      width: 450px;
+      width: auto;
       max-width: 100%;
-      height: auto;
+      height: 400px;
       object-fit: contain;
       border-radius: 6px;
     }
