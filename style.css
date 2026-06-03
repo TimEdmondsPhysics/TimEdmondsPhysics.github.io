@@ -248,7 +248,6 @@
     .description-content {
       display: flex;
       flex-direction: row;
-      gap: 1rem;
       align-items: center;
       margin-bottom: 0.3rem;  /* adds space between consecutive sections */
     }
