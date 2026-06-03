@@ -200,7 +200,7 @@
     }
 
     .project-card:hover {
-      background: var(--bg);
+      background: var(--card-bg-hover);
       border-color: var(--accent);
       color: var(--ink);
     }
@@ -358,7 +358,7 @@
     }
 
     .repo-link:hover {
-      background: var(--bg);
+      background: var(--card-bg-hover);
       border-color: var(--accent);
     }
 
