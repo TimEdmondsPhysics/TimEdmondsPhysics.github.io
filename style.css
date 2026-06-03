@@ -2,12 +2,13 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:       #d8d8d8;
-      --ink:      #1a1a18;
-      --muted:    #52504d;
-      --accent:   #136153;
-      --line:     #dedad4;
-      --card-bg:  #ffffff;
+      --bg:             #d8d8d8;
+      --ink:            #1a1a18;
+      --muted:          #52504d;
+      --accent:         #136153;
+      --line:           #dedad4;
+      --card-bg-hover:  #ffffff;
+      --card-bg:        #ebebeb;
     }
 
     html { scroll-behavior: smooth; }
@@ -171,7 +172,7 @@
       flex-direction: row;
       align-items: start;
       gap: 1rem;
-      transition: background 0.2s, border-color 0.15s;
+      transition: background 0.2s, var(--card-bg-hover) 0.15s;
       text-decoration: none;
       color: inherit;
       border: 1px solid transparent;
@@ -287,7 +288,7 @@
       text-decoration: none;
       color: inherit;
       border: 1px solid transparent;
-      transition: background 0.2s, border-color 0.15s;
+      transition: background 0.2s, var(--card-bg-hover) 0.15s;
     }
 
     .contact-item:hover {
