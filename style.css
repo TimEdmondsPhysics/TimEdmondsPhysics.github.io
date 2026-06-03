@@ -342,6 +342,51 @@
       text-align: center;
     }
 
+    /* ── Repo Link ── */
+    .repo-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.4rem 1.6rem;
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.2s, border-color 0.15s;
+      max-width: 860px;
+    }
+
+    .repo-link:hover {
+      background: var(--bg);
+      border-color: var(--accent);
+    }
+
+    .repo-link-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      color: var(--ink);
+      margin-bottom: 0.3rem;
+    }
+
+    .repo-link-desc {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .repo-link-arrow {
+      font-size: 1.2rem;
+      color: var(--muted);
+      flex-shrink: 0;
+      transition: transform 0.2s, color 0.2s;
+    }
+
+    .repo-link:hover .repo-link-arrow {
+      transform: translate(3px, -3px);
+      color: var(--accent);
+    }
+
     /* ── Footer ── */
     footer {
       padding: 2.5rem 0;
