@@ -354,7 +354,7 @@
       border: 1px solid var(--line);
       text-decoration: none;
       color: inherit;
-      transition: background 0.2s, border-color 0.15s;
+      transition: background 0.2s, var(--card-bg-hover) 0.15s;
     }
 
     .repo-link:hover {
