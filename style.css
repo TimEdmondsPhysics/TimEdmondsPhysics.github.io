@@ -172,7 +172,7 @@
       flex-direction: row;
       align-items: start;
       gap: 1rem;
-      transition: background 0.2s, var(--card-bg-hover) 0.15s;
+      transition: background 0.2s, border-color 0.15s;
       text-decoration: none;
       color: inherit;
       border: 1px solid transparent;
@@ -288,7 +288,7 @@
       text-decoration: none;
       color: inherit;
       border: 1px solid transparent;
-      transition: background 0.2s, var(--card-bg-hover) 0.15s;
+      transition: background 0.2s, border-color 0.15s;
     }
 
     .contact-item:hover {
@@ -354,7 +354,7 @@
       border: 1px solid var(--line);
       text-decoration: none;
       color: inherit;
-      transition: background 0.2s, var(--card-bg-hover) 0.15s;
+      transition: background 0.2s, border-color 0.15s;
     }
 
     .repo-link:hover {
