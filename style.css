@@ -345,6 +345,7 @@
     /* ── Repo Link ── */
     .repo-link {
       display: flex;
+      width: 100%;           /* add this */
       align-items: center;
       justify-content: space-between;
       gap: 1rem;
