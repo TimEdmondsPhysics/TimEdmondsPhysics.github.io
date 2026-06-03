@@ -248,9 +248,9 @@
     .description-content {
       display: flex;
       flex-direction: row;
-      gap: 2rem;
+      gap: 1rem;
       align-items: center;
-      margin-bottom: 2rem;  /* adds space between consecutive sections */
+      margin-bottom: 1rem;  /* adds space between consecutive sections */
     }
 
     /* ── Skills ── */
