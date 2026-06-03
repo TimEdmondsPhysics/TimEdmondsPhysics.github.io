@@ -166,6 +166,10 @@
       border: 1px solid var(--line);
     }
 
+    .projects-grid + .projects-grid {
+      margin-top: 2rem;
+    }
+
     .project-card {
       background: var(--card-bg);
       padding: 1.8rem;
