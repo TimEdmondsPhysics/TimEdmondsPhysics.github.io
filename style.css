@@ -313,7 +313,6 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);  /* fixed 2 columns */
       gap: 1.5rem;
-      max-width: 860px;        /* stops it stretching too wide */
       margin: 0 auto;          /* centres the grid within the section */
     }
 
