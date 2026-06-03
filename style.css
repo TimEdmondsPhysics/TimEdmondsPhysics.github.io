@@ -355,7 +355,6 @@
       text-decoration: none;
       color: inherit;
       transition: background 0.2s, border-color 0.15s;
-      max-width: 860px;
     }
 
     .repo-link:hover {
