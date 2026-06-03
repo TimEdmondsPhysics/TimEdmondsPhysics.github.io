@@ -292,7 +292,7 @@
     }
 
     .contact-item:hover {
-      background: var(--bg);
+      background: var((--card-bg-hover);
       border-color: var(--accent);
     }
 
