@@ -325,8 +325,10 @@
 
     .gallery-item img,
     .gallery-item video {
-      height: 220px;
-      object-fit: cover;
+      width: 100%;
+      height: auto;
+      max-height: 800px;   /* optional: prevents very tall portrait images */
+      object-fit: contain; /* use contain instead of cover to avoid cropping */
       border-radius: 6px;
       display: block;
     }
