@@ -248,8 +248,13 @@
     .description-content {
       display: flex;
       flex-direction: row;
+      gap: 2rem;
       align-items: center;
-      margin-bottom: 0.3rem;  /* adds space between consecutive sections */
+      padding: 2rem 0;
+    }
+
+    .description-content + .description-content {
+      margin-top: 2rem;
     }
 
     /* ── Skills ── */
