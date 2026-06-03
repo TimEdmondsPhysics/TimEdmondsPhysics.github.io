@@ -250,7 +250,7 @@
       flex-direction: row;
       gap: 1rem;
       align-items: center;
-      margin-bottom: 1rem;  /* adds space between consecutive sections */
+      margin-bottom: 0.3rem;  /* adds space between consecutive sections */
     }
 
     /* ── Skills ── */
