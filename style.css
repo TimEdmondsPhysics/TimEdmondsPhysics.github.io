@@ -319,14 +319,14 @@
     .gallery-item {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.2rem;
     }
 
     .gallery-item img,
     .gallery-item video {
       width: 100%;
       height: auto;
-      max-height: 800px;   /* optional: prevents very tall portrait images */
+      max-height: 1000px;   /* optional: prevents very tall portrait images */
       object-fit: contain; /* use contain instead of cover to avoid cropping */
       border-radius: 6px;
       display: block;
