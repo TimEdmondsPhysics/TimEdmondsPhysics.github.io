@@ -27,19 +27,19 @@
     <!-- Hero -->
     <section class="hero" id="home">
       <h1>2D Ising Model Visualisation</h1>
-      <div class="description-content"></div>
+      <div class="description-content">
+      <p>
+        This project is a interactive real-time visualisation of the 2D square Ising model, a fundamental model for ferromagnetism in statistical mechanics that can be used to study phase transitions and critical phenomena.
+        The model can demonstrate how interactions between spins lead to collective behaviour, such as the sponteneous magnetisation that occurs below the critical temperature. The visualisation also allows you to see the
+        formation and change of magnetic domains as the dynamics of the system evolve. Anti-ferromagneting interactions can also be visualised for certain parameter choices, which leads to the formation of checkerboard patterns of spins.
+        This project was implemented in python using the Metropolis algorithm to simulate the time-dyanimcs of the system, visualised through matplotlib's animation module.
+      </p>
         <div class="project-images">
           <video controls width="450" height="300">
             <source src="./media/ising_model/recording1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-        <p>
-        This project is a interactive real-time visualisation of the 2D square Ising model, a fundamental model for ferromagnetism in statistical mechanics that can be used to study phase transitions and critical phenomena.
-        The model can demonstrate how interactions between spins lead to collective behaviour, such as the sponteneous magnetisation that occurs below the critical temperature. The visualisation also allows you to see the
-        formation and change of magnetic domains as the dynamics of the system evolve. Anti-ferromagneting interactions can also be visualised for certain parameter choices, which leads to the formation of checkerboard patterns of spins.
-        This project was implemented in python using the Metropolis algorithm to simulate the time-dyanimcs of the system, visualised through matplotlib's animation module.
-        </p>
       </div>
     </section>
 
@@ -48,7 +48,6 @@
         <h2 class="section-title">Gallery</h2>
       </div>
       <div class="gallery-grid">
-
         <figure class="gallery-item">
           <img src="./media/ising_model/ising_model_1.png" alt="Low temperature state" />
           <figcaption>Low temperature spontaneous magnetisation (T < Tc)</figcaption>
