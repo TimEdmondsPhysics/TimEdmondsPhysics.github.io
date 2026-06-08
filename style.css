@@ -199,6 +199,7 @@
 
     .project-images img,
     .project-images video {
+      display: flex;
       max-width: 100%;
       height: auto;        /* let height follow width on small screens */
       max-height: 400px;   /* keep the desktop cap */
