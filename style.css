@@ -192,7 +192,9 @@
       display: flex;
       flex-direction: row;
       gap: 0.5rem;
-      flex-shrink: 0;
+      flex-shrink: 1;    /* allow it to shrink */
+      min-width: 0;      /* prevents flex overflow */
+      max-width: 100%;   /* hard cap */
     }
 
     .project-images img,
@@ -433,6 +435,6 @@
 
     @media (max-width: 520px) {
       .header-inner { flex-direction: column; }
-      .project-card { grid-template-columns: 1fr; }
+      .project-card { flex-direction: column; }
       .project-arrow { display: none; }
     }
