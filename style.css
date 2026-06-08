@@ -198,7 +198,8 @@
     .project-images img,
     .project-images video {
       max-width: 100%;
-      height: 400px;
+      height: auto;        /* let height follow width on small screens */
+      max-height: 400px;   /* keep the desktop cap */
       width: auto;
       object-fit: contain;
       border-radius: 6px;
