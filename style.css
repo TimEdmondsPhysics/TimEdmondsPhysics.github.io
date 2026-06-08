@@ -63,9 +63,9 @@
     }
 
     nav a {
-      color: var(--muted);
+      color: var(--accent);
       text-decoration: none;
-      font-size: 12px;
+      font-size: 14px;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       transition: color 0.2s;
