@@ -202,7 +202,7 @@
       display: flex;
       max-width: 100%;
       height: auto;        /* let height follow width on small screens */
-      max-height: 450px;   /* keep the desktop cap */
+      max-height: 4-0px;   /* keep the desktop cap */
       width: auto;
       object-fit: contain;
       border-radius: 6px;
