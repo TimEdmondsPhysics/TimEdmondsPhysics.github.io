@@ -258,21 +258,19 @@
     .description-content {
       display: flex;
       flex-direction: row;
-      gap: 2rem;              /* increase gap between text and image from 1rem */
+      gap: 2rem;
       align-items: center;
-      flex-wrap: wrap;        /* ← add this */
+      flex-wrap: wrap;
     }
 
     .description-content .project-images {
-      flex: 1 1 350px;        /* grow, shrink, but never below 300px */
-      min-width: 300px;
+      flex: 1 1 550px;
+      min-width: 450px;
     }
 
     .description-content .project-images video {
-      max-height: 100%;
+      width: 100%;
       height: auto;
-      width: 450px;
-
     }
 
     .description-content + .description-content {
