@@ -269,8 +269,10 @@
     }
 
     .description-content .project-images video {
-      width: 100%;
-      height: auto;
+      max-height: 100%;
+      width: auto;
+      height: 450px;
+
     }
 
     .description-content + .description-content {
