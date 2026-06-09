@@ -267,13 +267,18 @@
       min-width: 0;
     }
 
+    .description-content p {
+      max-width: none;
+    }
+
     .description-content > :not(.project-images) {
-      flex: 1 1 60%;
+      flex: 1 1 0;
+      min-width: 240px;
     }
 
     .description-content .project-images {
-      flex: 0 0 40%;
-      min-width: 280px;
+      flex: 0 1 40%;
+      min-width: 240px;
       max-width: 40%;
       width: 40%;
     }
