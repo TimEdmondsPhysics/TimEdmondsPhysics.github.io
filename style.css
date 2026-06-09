@@ -270,8 +270,8 @@
 
     .description-content .project-images video {
       max-height: 100%;
-      width: auto;
-      height: 450px;
+      height: auto;
+      width: 450px;
 
     }
 
