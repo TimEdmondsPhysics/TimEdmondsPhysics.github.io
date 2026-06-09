@@ -264,8 +264,8 @@
     }
 
     .description-content .project-images {
-      flex: 1 1 300px;        /* grow, shrink, but never below 300px */
-      min-width: 280px;
+      flex: 1 1 350px;        /* grow, shrink, but never below 300px */
+      min-width: 300px;
     }
 
     .description-content .project-images video {
