@@ -260,6 +260,17 @@
       flex-direction: row;
       gap: 2rem;              /* increase gap between text and image from 1rem */
       align-items: center;
+      flex-wrap: wrap;        /* ← add this */
+    }
+
+    .description-content .project-images {
+      flex: 1 1 300px;        /* grow, shrink, but never below 300px */
+      min-width: 280px;
+    }
+
+    .description-content .project-images video {
+      width: 100%;
+      height: auto;
     }
 
     .description-content + .description-content {
