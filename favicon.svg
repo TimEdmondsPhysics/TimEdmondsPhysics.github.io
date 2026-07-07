@@ -38,13 +38,13 @@ font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="norm
 <g fill="#252d69" fill-opacity="1" stroke="none" transform="matrix(7.5e-05,0,0,7.5e-05,-111.518,-85.2679)"
 font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
 >
-<path vector-effect="none" fill-rule="evenodd" d="M6.18568e+06,5.40852e+06 L5.175e+06,3.65797e+06 L4.16432e+06,5.40852e+06 L6.18568e+06,5.40852e+06"/>
+<path vector-effect="none" fill-rule="evenodd" d="M6.19579e+06,5.41435e+06 L5.175e+06,3.6463e+06 L4.15421e+06,5.41435e+06 L6.19579e+06,5.41435e+06"/>
 </g>
 
 <g fill="none" stroke="#252d69" stroke-opacity="1" stroke-width="69.3333" stroke-linecap="butt" stroke-linejoin="round" transform="matrix(0.75,0,0,0.75,-111.518,-85.2679)"
 font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
 >
-<path vector-effect="none" fill-rule="evenodd" d="M517.5,365.797 L618.568,540.852 L416.432,540.852 L517.5,365.797"/>
+<path vector-effect="none" fill-rule="evenodd" d="M517.5,364.63 L619.579,541.435 L415.421,541.435 L517.5,364.63"/>
 </g>
 </g>
 </svg>
